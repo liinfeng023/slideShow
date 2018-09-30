@@ -1,0 +1,42 @@
+#main{
+	width: 800px;
+	overflow: hidden;
+	position: absolute;
+	left:50%;
+	margin-left: -400px;
+	margin-top: 7%;
+}
+#banner{
+	position: relative;
+	height:533px;
+	width: 4000px;
+}
+#banner > img{
+	width: 800px;
+	height:533px;
+	float: left;
+}
+.icon_img{
+	position: absolute;
+	height: 50px;
+	width: 800px;
+	z-index: 4555;
+	top: 50%;
+	margin-top: -25px;
+	opacity: 0;
+}
+.icon_img > img{
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+#img_left{
+	float: left;
+}
+#img_right{
+	float: right;
+}
+#main:hover .icon_img{
+	opacity: 1;
+	transition: all 1.5s;
+}
